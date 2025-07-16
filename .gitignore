@@ -1,0 +1,33 @@
+# KiCad temporary and backup files
+*.bak
+*.bck
+*.kicad_prl  # Optional: Ignore if you don't want to share local settings
+*-backup/
+_autosave-*
+*.tmp
+
+# KiCad cache files
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
+sym-lib-table
+fp-lib-table
+
+# Generated output files (optional, depending on whether you version them)
+*.gbr
+*.drl
+*.nc
+*.rpt
+*.pos
+*.csv
+*.pdf  # Unless you want to version schematics/outputs
+
+# Other common ignores
+*.log
+*.zip
+*.tar.gz
+*.DS_Store  # macOS-specific
+Thumbs.db   # Windows-specific
+
+# KiCad 6+ worksheet files (if not customized)
+*.kicad_wks
