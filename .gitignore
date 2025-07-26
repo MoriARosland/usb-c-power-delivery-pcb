@@ -26,7 +26,7 @@ fp-lib-table
 *.log
 *.zip
 *.tar.gz
-*.DS_Store  # macOS-specific
+.DS_Store  # macOS-specific
 Thumbs.db   # Windows-specific
 
 # KiCad 6+ worksheet files (if not customized)
