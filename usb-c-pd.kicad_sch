@@ -8024,6 +8024,28 @@
 			)
 		)
 	)
+	(global_label "HPI_INT"
+		(shape output)
+		(at 139.7 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "f336d678-d0ad-4a4a-b60c-8191072869b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.7485 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PD_FLIP"
 		(shape input)
 		(at 284.48 132.08 0)
