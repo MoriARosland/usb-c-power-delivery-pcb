@@ -8002,28 +8002,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 119.38 97.79 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "e2fa77e7-5f3b-4360-a3cf-0c735a0197f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 91.4832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HPI_INT"
 		(shape output)
 		(at 139.7 123.19 0)
@@ -8581,7 +8559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -9002,7 +8980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 97.79 0)
 			(effects
 				(font
@@ -9069,7 +9047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 217.17 143.51 0)
 			(effects
 				(font
@@ -9473,7 +9451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 181.102 20.574 90)
 			(effects
 				(font
@@ -9482,7 +9460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.88 24.13 0)
 			(effects
 				(font
@@ -10500,7 +10478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 320.548 125.476 0)
 			(effects
 				(font
@@ -10509,7 +10487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 317.5 124.46 0)
 			(effects
 				(font
@@ -10778,7 +10756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -11179,7 +11157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -11313,7 +11291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 189.23 241.3 0)
 			(effects
 				(font
@@ -11448,7 +11426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 242.57 0)
 			(effects
 				(font
@@ -11653,7 +11631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -11690,6 +11668,72 @@
 			(project "usb-c-pd"
 				(path "/8b91f438-df16-4abb-b457-7ba42e3c4b7f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 119.38 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f5454cc-7ad2-47d3-8f65-49993be3499c")
+		(property "Reference" "#PWR035"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e8b4ea7-2094-400a-b651-ed716ab29bb8")
+		)
+		(instances
+			(project "usb-c-pd"
+				(path "/8b91f438-df16-4abb-b457-7ba42e3c4b7f"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11955,7 +11999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 118.364 176.53 0)
 			(effects
 				(font
@@ -11964,7 +12008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 114.3 175.26 0)
 			(effects
 				(font
@@ -12222,7 +12266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "usb-c-pd-lib:PJ002AHSMTTR"
 			(at 133.35 56.896 0)
 			(effects
 				(font
@@ -12424,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 182.88 234.95 0)
 			(effects
 				(font
@@ -12558,7 +12602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 224.79 107.95 0)
 			(effects
 				(font
@@ -12844,7 +12888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.46 242.57 0)
 			(effects
 				(font
@@ -12911,7 +12955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 186.69 113.03 0)
 			(effects
 				(font
@@ -13185,7 +13229,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 221.742 44.45 0)
 			(effects
 				(font
@@ -13194,7 +13238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -13787,7 +13831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 64.77 176.53 0)
 			(effects
 				(font
@@ -13856,7 +13900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 149.86 59.69 0)
 			(effects
 				(font
@@ -14062,7 +14106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 163.83 53.34 0)
 			(effects
 				(font
