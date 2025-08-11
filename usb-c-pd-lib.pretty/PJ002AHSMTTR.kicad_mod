@@ -305,7 +305,7 @@
 		(uuid "f9e40320-84dc-48e0-9556-9a8d76820434")
 	)
 	(embedded_fonts no)
-	(model "PJ-002AH-SMT-TR.stp"
+	(model "${KIPRJMOD}/3d_models/PJ-002AH-SMT-TR.stp"
 		(offset
 			(xyz 0.1500000037 -7.449999697 6.550000092)
 		)
