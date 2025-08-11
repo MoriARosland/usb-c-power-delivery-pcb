@@ -5,6 +5,7 @@
 *-backup/
 _autosave-*
 *.tmp
+*.lck
 
 # KiCad cache files
 *.kicad_pcb-bak
