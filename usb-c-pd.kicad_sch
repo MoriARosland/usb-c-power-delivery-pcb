@@ -8113,7 +8113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "+3V3 MCU"
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -9764,7 +9764,7 @@
 				)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "165"
 			(at 182.88 127 0)
 			(effects
 				(font
@@ -12539,11 +12539,12 @@
 			)
 		)
 		(property "Value" "+3V3 MCU"
-			(at 163.83 100.33 0)
+			(at 166.37 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13797,7 +13798,7 @@
 				)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "165"
 			(at 213.36 157.48 0)
 			(effects
 				(font
