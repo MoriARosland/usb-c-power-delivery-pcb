@@ -1,3 +1,3 @@
 # usb-c-power-delivery-pcb
 
-Revision in progress.
+Working on some improvments. Revision in progress.
